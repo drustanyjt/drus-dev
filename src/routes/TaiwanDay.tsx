@@ -75,7 +75,7 @@ function TaiwanDay() {
   return (
     <div className='flex flex-col w-screen
     justify-center text-center items-center'>
-      <div className="flex">
+      <div id="welcomeText" className="flex">
         <p>Day {dayId}!</p>
       </div>
       <DayDetail dayId={dayId}/>
@@ -83,4 +83,14 @@ function TaiwanDay() {
   )
 } 
 
-export default TaiwanDay;
+function TaiwanIndex() {
+
+  return (
+    <div className="flex flex-col h-fit justify-center text-center items-center">
+      <h1 className="text-4xl font-bold text-green-800">Welcome to the Taiwan Itinerary!</h1>
+      <p>Click on a day at the top to see more</p>
+    </div>
+  ) 
+}
+
+export { TaiwanIndex, TaiwanDay };

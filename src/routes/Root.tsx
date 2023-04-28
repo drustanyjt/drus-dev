@@ -20,7 +20,7 @@ function Root() {
               className=" bg-cyan-300 hover:bg-slate-600 hover:text-cyan-50
             rounded-xl px-1 py-1"
             >
-              Click me!
+              Taiwan!
             </button>
 
           </Link>
