@@ -1,5 +1,7 @@
 import { useParams } from "react-router-dom";
 
+// TODO add interfaces for props
+
 function DayDetail(props : any) {
   const details = [
     {
