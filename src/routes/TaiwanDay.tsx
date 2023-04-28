@@ -57,7 +57,7 @@ function Detail(props : any) {
     )
 }
 
-function TaiwanDay(props : any) {
+function TaiwanDay() {
 
   const { dayId } = useParams();
 
