@@ -4,7 +4,7 @@ function Taiwan() {
 
   return (
     <div>
-      <div className='fixed flex flex-row h-12 w-screen left-0 top-0 bg-black
+      <div className='fixed aboslute flex flex-row h-12 w-screen left-0 top-0 bg-black
       items-center'>
         <div className='flex-initial w-24 m-1 ml-2 justify-center text-center'>
           <Link to={`1`}>
@@ -23,7 +23,7 @@ function Taiwan() {
         </div>
 
       </div>
-      <div id="detail" className='flex h-screen w-screen justify-center items-center text-center left-0 top-0'>
+      <div id="detail" className="mt-16">
         <Outlet />
       </div>
 

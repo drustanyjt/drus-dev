@@ -5,6 +5,7 @@ import ErrorPage from './ErrorPage.tsx';
 import Taiwan from './routes/Taiwan.tsx';
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import './index.css'
+import TaiwanDay from './routes/TaiwanDay.tsx';
 
 const router = createBrowserRouter([
   {
@@ -17,8 +18,8 @@ const router = createBrowserRouter([
     element: <Taiwan />,
     children:[
       {
-        path: ":day",
-        element: <div><p>Details!!!</p>Details</div>,
+        path: ":dayId",
+        element: <TaiwanDay />,
       }
     ]
   }
