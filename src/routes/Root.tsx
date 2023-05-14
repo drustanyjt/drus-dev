@@ -18,11 +18,18 @@ function Root() {
           <Link to={`/taiwan`}>
             <button
               className=" bg-cyan-300 hover:bg-slate-600 hover:text-cyan-50
-            rounded-xl px-1 py-1"
+            rounded-xl px-1 py-1 mx-3"
             >
               Taiwan!
             </button>
-
+          </Link>
+          <Link to={`/about`}>
+            <button
+              className=" bg-cyan-300 hover:bg-slate-600 hover:text-cyan-50
+            rounded-xl px-1 py-1"
+            >
+              About me!
+            </button>
           </Link>
         </div>
       </div>

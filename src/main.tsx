@@ -6,11 +6,17 @@ import Taiwan from './routes/Taiwan.tsx';
 import { createBrowserRouter, Navigate, RouterProvider } from "react-router-dom";
 import './index.css'
 import { TaiwanIndex, TaiwanDay } from './routes/TaiwanDay.tsx';
+import About from './routes/About.tsx';
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Root />, 
+    errorElement: <ErrorPage />,
+  },
+  {
+    path: "/about",
+    element: <About />,
     errorElement: <ErrorPage />,
   },
   {
